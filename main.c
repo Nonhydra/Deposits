@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include <conio.h>
-
 
 void Profit(int sum, int itog)
 {
@@ -54,6 +52,5 @@ int main()
 		printf("%s\n", "Uncorrect value of term or deposit");
 	}
 
-	getch();
 	return 0;
 }
