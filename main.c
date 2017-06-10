@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include <conio.h>
 
+
+void Profit(int sum, int itog)
+{
+	int profit= 0;
+	profit = itog - sum;
+	printf("%s", "Your profit=");
+	printf("%i\n", profit); 
+}
+
+
 int main()
 {
 	int sum, srok, itog, month;
@@ -34,6 +44,10 @@ int main()
 			if (srok <= 365 && srok >= 241)
 				itog = sum * month / 100 * 115;
 		}
+
+		printf("%s", "Amount of deposit=");
+		printf("%d\n", itog);
+		Profit(sum, itog);
 	}
 	else
 	{
