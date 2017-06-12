@@ -37,12 +37,12 @@ float Profit(int sum, int srok)
 	return profit;
 }
 
-bool Check(int sum, int srok)
+int Check(int sum, int srok)
 {
 	if (sum > 1000 && srok <= 365 && srok > 0)
 	{
-		return true;
+		return 1;
 	}
 
-	return false;
+	return 0;
 }
