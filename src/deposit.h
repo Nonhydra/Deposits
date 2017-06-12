@@ -1,1 +1,4 @@
-void Profit(int, int);
+#include<stdio.h>
+
+float Profit(int, int);
+bool Check(int, int);
